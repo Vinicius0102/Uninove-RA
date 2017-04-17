@@ -16,4 +16,12 @@
         app:srcCompat="@drawable/unnamed"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/txt_Site"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SiteFabricaApp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
 </LinearLayout>
