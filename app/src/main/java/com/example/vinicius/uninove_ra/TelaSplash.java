@@ -21,6 +21,9 @@ public class TelaSplash extends AppCompatActivity {
 
                 Intent abriMainActivity = new Intent(TelaSplash.this,MainActivity.class); // Instancia da classe usada para abrir novas telas
                 startActivity(abriMainActivity); // Inicia a activity
+
+                //finaiza a activity de splash
+                finish();
             }
         },tempoDaSplash);
 
