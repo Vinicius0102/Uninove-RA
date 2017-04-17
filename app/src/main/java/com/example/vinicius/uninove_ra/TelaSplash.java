@@ -20,7 +20,7 @@ public class TelaSplash extends AppCompatActivity {
             public void run() {// Metodo sera sempre executado quando o tempoDaSplah acabar.
 
                 Intent abriMainActivity = new Intent(TelaSplash.this,MainActivity.class); // Instancia da classe usada para abrir novas telas
-                startActivity(abriMainActivity); // Inicia a activitya
+                startActivity(abriMainActivity); // Inicia a activity
             }
         },tempoDaSplash);
 
