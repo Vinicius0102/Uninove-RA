@@ -10,6 +10,7 @@
 
 
     <android.support.v7.widget.Toolbar
+
         android:id="@+id/toolbar01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,5 +18,24 @@
         android:background="?attr/colorPrimary">
 
     </android.support.v7.widget.Toolbar>
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ra"
+        android:textColor="#1C1C1C"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:theme="@style/the"/>
 
 </LinearLayout>
