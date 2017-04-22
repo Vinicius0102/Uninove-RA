@@ -28,12 +28,12 @@
         android:text="@string/Ra"
         android:textColor="#1C1C1C"
         android:layout_gravity="center"
-        android:layout_marginTop="150dp"
-        android:textSize="25dp"/>
+        android:textSize="25dp"
+        android:layout_marginTop="150dp"/>
 
     <EditText
 
-        android:id="@+id/editText"
+        android:id="@+id/txtRa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -42,7 +42,7 @@
         android:theme="@style/the" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnEntrar"
         android:layout_width="143dp"
         android:layout_height="wrap_content"
         android:text="@string/BotaoEntrar"
