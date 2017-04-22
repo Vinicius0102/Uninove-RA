@@ -26,5 +26,6 @@
         android:text="@string/SiteFabricaApp"
         android:layout_gravity="center"
         android:layout_marginTop="119dp"
-        android:textSize="25dp"/>
+        android:textSize="25dp"
+        android:textColor="#ffffff"/>
 </LinearLayout>
